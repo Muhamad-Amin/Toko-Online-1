@@ -1,0 +1,18 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.produk-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe {
+    background-color: rgba(0, 0, 0, 0.7);
+}
