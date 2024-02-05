@@ -76,10 +76,10 @@
                             <a href="/product/{{ $product->id }}">
                                 @if ($product->image == '')
                                     <img src="{{ asset('img/notFound.jpeg') }}"
-                                        class="img-fluid img-thumbnail produk-terkait-image"" alt="{{ $product->name }}">
+                                        class="img-fluid img-thumbnail produk-terkait-image" alt="{{ $product->name }}">
                                 @else
                                     <img src="{{ asset('storage/photo/' . $product->image) }}"
-                                        class="img-fluid img-thumbnail produk-terkait-image"" alt="{{ $product->name }}">
+                                        class="img-fluid img-thumbnail produk-terkait-image" alt="{{ $product->name }}">
                                 @endif
                             </a>
                         </div>
